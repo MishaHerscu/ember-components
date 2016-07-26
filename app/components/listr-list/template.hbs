@@ -1,0 +1,10 @@
+
+<h4 {{action 'toggleList'}} on='click' class="list-header"> {{list.title}} </h4>
+
+<ul>
+  {{#each list.items as |item|}}
+    {{listr-list/item item=item}}
+  {{/each}}
+</ul>
+
+{{yield}}

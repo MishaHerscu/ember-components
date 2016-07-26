@@ -1,0 +1,11 @@
+<div class="container">
+
+  <h1> Welcome to LISTR! </h1>
+
+  {{#each model as |list|}}
+    {{listr-list list=list}}
+  {{/each}}
+
+</div>
+
+{{outlet}}

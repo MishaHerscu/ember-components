@@ -1,2 +1,31 @@
 @import 'bootstrap';
 @import 'bootstrap/theme';
+
+$text-color: #777;
+$background-color: #eee;
+
+body {
+  background-image: url('../01-usersthink-stock-image.jpg');
+  color: $text-color;
+  text-align: center;
+}
+
+div {
+  text-align: left;
+}
+
+.list-hide :not(:first-child) {
+  display: none;
+}
+
+.crossed-off {
+  text-decoration: line-through;
+}
+
+.list-header:hover {
+  cursor: pointer;
+}
+
+.list-item:hover {
+  cursor: pointer;
+}
